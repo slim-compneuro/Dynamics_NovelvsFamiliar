@@ -1,7 +1,10 @@
 clc;clear all;close all;
 %% Experimental data
 load('Data_Freedman.mat')
-% Data_Freedman.mat has mean firing rates for nov and fam stimuli 
+% Data_Freedman.mat has mean firing rates for nov and fam stimuli presented
+% in "McKee, J. L., Thomas, S. L., & Freedman, D. J. (2013). Neuronal
+% representations of novel and familiar visual stimuli in macaque inferior temporal, perirhinal and prefrontal cortices. Paper presented at the Society for Neuroscience, San Diego"
+
 % t: time
 % R_nov: mean rate for nov stim
 % R_fam: mean rate for fam stim
